@@ -20,6 +20,12 @@ bin/kafka-console-producer --topic test --bootstrap-server localhost:9092
 
 bin/kafka-console-consumer --topic test --from-beginning --bootstrap-server localhost:9092
 
+Kafka Connect Commands
+------------------------------------
+
+connect-standalone worker.properties connector-file-name.properties
+
+
 Kafka Docker Images
 ------------------------------------
 https://github.com/keerthanvp/docker/blob/12d260d1b366b1b964ef1293c7db08dd72fb56c9/apache-kafka-docker-compose.yaml
